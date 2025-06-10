@@ -20,41 +20,42 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="sticky top-0 z-50 w-full bg-[#AD2621] font-montserrat text-white">
-        <div class="flex items-center justify-between px-2 md:px-8 h-[62px]">
-            <!-- Logo or site name (optional) -->
-            <div class="md:hidden flex items-center">
-                <button id="menu-btn" class="focus:outline-none" aria-label="Open Menu">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden md:flex h-full w-full min-w-max">
-                <a href="index.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Home</a>
-                <a href="authors.html" class="w-[140px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">For Authors</a>
-                <a href="paper-sub-guidelines.html" class="w-[160px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Paper Submission Guidelines</a>
-                <a href="speakers.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Speakers</a>
-                <a href="registration.html" class="w-[140px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Registration</a>
-                <a href="committee.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Committee</a>
-                <a href="venue.html" class="w-[100px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Venue</a>
-                
-                <a href="contact.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Contact Us</a>
-            </div>
-        </div>
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="md:hidden hidden flex-col bg-[#AD2621] w-full">
-            <a href="index.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Home</a>
-            <a href="authors.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">For Authors</a>
-            <a href="paper-sub-guidelines.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Paper Submission Guidelines</a>
-            <a href="speakers.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Speakers</a>
-            <a href="registration.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Registration</a>
-            <a href="committee.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Committee</a>
-            <a href="venue.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Venue</a>
-          
-            <a href="contact.html" class="text-center py-3 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Contact Us</a>
-        </div>
-    </nav>
+  <nav class="sticky top-0 z-50 w-full bg-[#AD2621] font-montserrat text-white">
+    <div class="flex items-center justify-between px-2 md:px-8 h-[52px]">
+      <!-- Hamburger for mobile -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="focus:outline-none" aria-label="Open Menu">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <!-- Desktop menu -->
+      <div id="desktop-menu" class="hidden md:flex h-full w-full min-w-max">
+        <a href="index.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Home</a>
+        <a href="authors.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">For Authors</a>
+        <a href="paper-sub-guidelines.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Paper Submission Guidelines</a>
+        <a href="speakers.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Speakers</a>
+        <a href="registration.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Registration</a>
+        <a href="committee.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Committee</a>
+        <a href="venue.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Venue</a>
+        
+        <a href="contact.html" class="flex-1 text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Contact Us</a>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden flex-col bg-[#AD2621] w-full">
+      <a href="index.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Home</a>
+      <a href="authors.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">For Authors</a>
+      <a href="paper-sub-guidelines.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Paper Submission Guidelines</a>
+      <a href="speakers.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Speakers</a>
+      <a href="registration.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Registration</a>
+      <a href="committee.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Committee</a>
+      <a href="venue.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Venue</a>
+      
+      <a href="contact.html" class="text-center py-3 hover:font-bold hover:bg-white hover:text-[#AD2621]">Contact Us</a>
+    </div>
+  </nav>
 
   <!-- Hero Section -->
   <section class="relative bg-gradient-to-r from-red-100 to-red-200 py-12 mb-8">
