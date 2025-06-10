@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Committee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Top section -->
+    <div class="w-full bg-[#FFF1F1]">
+        <div class="flex flex-col md:flex-row items-center justify-between px-2 md:px-8 py-2 gap-2">
+            <img src="assets/gcet_logo.png" alt="" class="w-[180px] md:w-[277px] h-auto max-w-full">
+            <div class="text-lg md:text-2xl font-montserrat text-center font-bold mt-2 md:mt-0 px-2">
+                International Conference on Computing, Communication and Sustainable Energy Technologies (I3CSET-2025)
+            </div>
+            <img src="assets/routledge_logo.png" alt="" class="w-[140px] md:w-[240px] h-auto max-w-full mt-2 md:mt-0">
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 w-full bg-[#AD2621] font-montserrat text-white">
+        <div class="flex items-center justify-between px-2 md:px-8 h-[62px]">
+            <!-- Hamburger for mobile -->
+            <div class="md:hidden flex items-center">
+                <button id="menu-btn" class="focus:outline-none" aria-label="Open Menu">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+            <!-- Desktop menu -->
+            <div id="desktop-menu" class="hidden md:flex h-full w-full min-w-max">
+                <a href="index.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Home</a>
+                <a href="authors.html" class="w-[140px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">For Authors</a>
+                <a href="paper-sub-guidelines.html" class="w-[160px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Paper Submission Guidelines</a>
+                <a href="speakers.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Speakers</a>
+                <a href="registration.html" class="w-[140px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Registration</a>
+                <a href="committee.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Committee</a>
+                <a href="venue.html" class="w-[100px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Venue</a>
+                
+                <a href="contact.html" class="w-[120px] text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621] hover:cursor-pointer">Contact Us</a>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden flex-col bg-[#AD2621] w-full">
+            <a href="index.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Home</a>
+            <a href="authors.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">For Authors</a>
+            <a href="paper-sub-guidelines.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Paper Submission Guidelines</a>
+            <a href="speakers.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Speakers</a>
+            <a href="registration.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Registration</a>
+            <a href="committee.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Committee</a>
+            <a href="venue.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Venue</a>
+            
+            <a href="contact.html" class="text-center py-3 hover:font-bold hover:bg-white hover:text-[#AD2621]">Contact Us</a>
+        </div>
+    </nav>
+
+    <main>
+         <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-red-100 to-red-200 py-12 mb-8">
+    <div class="max-w-4xl mx-auto px-4 relative z-10">
+      <h1 class="text-3xl md:text-4xl font-bold text-red-900 mb-2">	Paper Submission Guidelines — Taylor & Francis Conference Proceedings
+</h1>
+      <p class="text-lg text-red-700"></p>
+    </div>
+  </section>
+
+        
+                <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                    a. Originality and Scope
+
+                </p>
+                <p class="mb-3 text-justify ">All submitted manuscripts must be original, unpublished, and not under consideration for publication elsewhere. Manuscripts should present significant and novel contributions to the field relevant to the conference themes.
+
+
+                </p>
+                
+            </section>
+        </section>
+        <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                    b. Manuscript Length and Format
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">The recommended manuscript length is 6 to 10 pages including figures, tables, and references</li>
+                   <li class="my-2">Authors must prepare their manuscripts according to the Taylor & Francis conference template, which can be downloaded from the conference website.
+                   </li>
+                   <li class="my-2">Manuscripts must be formatted in English, using clear and concise language.
+                   </li>
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+        <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                    c. Submission Process
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">All papers must be submitted electronically through the conference submission system (e.g., EasyChair or the conference website).
+
+                    </li>
+                   <li class="my-2">Submissions must include a title page with the title, author names, affiliations, and contact information.
+
+                   </li>
+                   <li class="my-2">To ensure a double-blind peer review, please avoid including author-identifying information in the main manuscript text or file name.
+
+                   </li>
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+         <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                    d. Review Process
+
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">Manuscripts will undergo rigorous double-blind peer review by at least two independent experts
+                    </li>
+                   <li class="my-2">The review criteria include originality, relevance, technical quality, clarity, and significance.
+
+
+                   </li>
+                  
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+         <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                   e. Plagiarism Policy
+
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">Submitted manuscripts will be checked for plagiarism using software such as iThenticate.
+
+
+                    </li>
+                   <li class="my-2">Manuscripts with similarity exceeding 15% may be rejected or returned for revision.
+
+
+                   </li>
+                  
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+         <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                   f. Ethical Considerations
+
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">Authors must adhere to ethical guidelines, including proper citation of prior work and avoiding duplicate publication
+                    </li>
+                   <li class="my-2">Any conflicts of interest must be disclosed during submission.
+
+
+                   </li>
+                   
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+         <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                   g. Camera-Ready Submission
+
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">Upon acceptance, authors must submit a camera-ready version of their manuscript by the specified deadline, incorporating reviewers’ comments.
+
+                    </li>
+                   <li class="my-2">The final manuscript should strictly follow the Taylor & Francis formatting and style requirements.
+
+                   </li>
+                   <li class="my-2">To ensure a double-blind peer review, please avoid including author-identifying information in the main manuscript text or file name.
+
+                   </li>
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+         <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                   h. Copyright and Publication
+
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">Authors must agree to transfer copyright to Taylor & Francis upon acceptance or grant an exclusive license for publication.
+
+
+                    </li>
+                   <li class="my-2">Accepted papers will be published in the Taylor & Francis conference proceedings series, indexed in Scopus, Web of Science, and other databases.
+
+
+                   </li>
+                  
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+
+         <section class="py-4 px-4 md:px-[38px] md:py-6">
+          <!--Track-->
+            <section class="mb-8">
+                <p class="mb-2 text-justify  text-red-800 font-bold">
+                  i.  Presentation Requirement
+
+                </p>
+                <p class="mb-3 text-justify ">
+                  <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="my-2">At least one author must register for the conference and present the paper (in person or virtually).
+
+
+                    </li>
+                   <li class="my-2">Failure to present may lead to exclusion of the paper from the proceedings.
+
+
+                   </li>
+                  
+        
+                </ul>
+               </p>
+                
+            </section>
+        </section>
+        
+           <section class="relative bg-gradient-to-r from-red-100 to-red-200 py-3 mb-8">
+            <div class="max-w-4xl mx-auto px-4 relative z-10">
+                <h1 class="text-3xl md:text-4xl font-bold text-red-900 mb-2">Important Dates</h1>
+            </div>
+        </section>
+        <main class="max-w-5xl mx-auto px-2 md:px-4 pb-16">
+            <!-- Registration Fee Tables -->
+            <div class="flex flex-col md:flex-row gap-8 mb-6">
+                <!-- Indian Authors Table -->
+                <div class="flex-1 overflow-x-auto">
+                    <table class="w-full min-w-[400px] border border-gray-300 bg-white rounded-lg overflow-hidden text-sm">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="border-b border-gray-300 px-3 py-2 text-left font-semibold">Activity</th>
+                                <th class="border-b border-gray-300 px-3 py-2 text-center font-semibold">Date</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border-b border-gray-200 px-3 py-2">Paper Submission Deadline</td>
+                                <td class="border-b border-gray-200 px-3 py-2 text-center">August 15, 2025</td>
+                                
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border-b border-gray-200 px-3 py-2">Notification of Acceptance</td>
+                                <td class="border-b border-gray-200 px-3 py-2 text-center">September 25, 2025</td>
+                                
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border-b border-gray-200 px-3 py-2">Camera-Ready Paper Submission</td>
+                                <td class="border-b border-gray-200 px-3 py-2 text-center">October 10, 2025</td>
+                                
+                            </tr>
+                           
+                            <tr class="hover:bg-gray-50">
+                                <td class="border-b border-gray-200 px-3 py-2">Author Registration Deadline</td>
+                                <td class="border-b border-gray-200 px-3 py-2 text-center">October 15, 2025</td>
+                                
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-3 py-2">Conference Dates</td>
+                                <td class="px-3 py-2 text-center">November 21–22, 2025</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+           <div class="my-10">
+                <span class="font-semibold text-red-800 block mb-2">Presentation Options</span>
+                <ul class="list-disc pl-6 space-y-1 text-justify text-sm text-gray-900">
+                    <li class="text-black">Oral Presentations for selected full papers</li>
+                    <li class="text-black">Virtual Presentations for international or remote authors (upon request)
+</li>
+                    
+                </ul>
+            </div>
+        </main>
+
+        
+
+    <!-- Footer -->
+    <div class="w-full h-auto px-1 bg-[#AD2621] font-montserrat text-white pt-8 pb-12">
+        <div class="flex flex-col md:flex-row justify-between px-2 md:px-6 gap-8">
+            <!-- 1. Logo and Contact -->
+            <div class="flex flex-col w-full md:w-2/4">
+                <div class="flex flex-col sm:flex-row items-center sm:items-start">
+                    <img src="assets/gcet_footer.png" alt="" class="w-[180px] md:w-[310px] h-auto mt-4 md:mt-[60px] ml-0 md:ml-[24px] max-w-full">
+                    <img src="assets/routledge_footer.png" alt="" class="w-[140px] md:w-[250px] h-auto mt-4 md:mt-[57px] ml-0 md:ml-[20px] max-w-full">
+                </div>
+                <div class="text-white mt-6 md:mt-[27px] ml-0 md:ml-[32px] font-bold text-lg md:text-[24px] leading-[27px]">
+                    I3CSET-2025<br>
+                    GALGOTIAS COLLEGE OF <br>ENGINEERING AND TECHNOLOGY
+                </div>
+                <div class="mt-6 md:mt-[40px] ml-0 md:ml-[32px]">
+                    <div class="text-lg md:text-[24px] font-bold mb-2">CONTACT US</div>
+                    <div class="text-base md:text-[20px] leading-[27px]">
+                        Galgotias College of Engineering and Technology,
+                        Knowledge Park II, Greater-<br>Noida, UP 201310, India
+                    </div>
+                    <div class="flex flex-col md:flex-row mt-6 md:mt-[40px] gap-2">
+                        <div class="font-bold text-lg md:text-[24px]">
+                            EMAIL <span class="text-base md:text-[20px] font-medium ml-2 md:ml-6">info@galgotiacollege.edu.in</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-2">
+                        <div class="font-bold text-lg md:text-[24px]">
+                            PHONE <span class="text-base md:text-[20px] font-medium ml-2">+91 xxxxx xxxxx</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- 2. Quick Links -->
+      <div class="w-full md:w-1/3 px-0 md:px-4 pt-8 md:pt-36">
+        <div class="text-xl md:text-[30px] font-bold mb-4 mt-6 md:mt-12">QUICK LINKS</div>
+        <div class="grid grid-cols-2 gap-x-3 text-base md:text-[20px] leading-[35px] font-medium">
+          <ul class="space-y-1 mt-5">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="authors.html" class="hover:underline">For Authors</a></li>
+            
+            <li><a href="committee.html" class="hover:underline">Committee</a></li>
+          </ul>
+          <ul class="space-y-1 mt-5">
+            <li><a href="speakers.html" class="hover:underline">Speakers</a></li>
+            <li><a href="paper-sub-guidelines.html" class="hover:underline">Paper Submission Guidelines</a></li>
+            <li><a href="venue.html" class="hover:underline">Venue</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+          </ul>
+        </div>
+                <div class="mt-6 md:mt-9 flex space-x-4">
+                    <a href="#"><img src="assets/fb_footer.png" alt="Facebook" class="w-[32px] md:w-[38px] h-[32px] md:h-[40px]"></a>
+                    <a href="#"><img src="assets/twitter_footer.png" alt="Twitter" class="w-[30px] md:w-[36px] h-[30px] md:h-[36px]"></a>
+                    <a href="#"><img src="assets/linkedin_footer.png" alt="LinkedIn" class="w-[30px] md:w-[36px] h-[30px] md:h-[37px]"></a>
+                </div>
+            </div>
+
+            <!-- 3. Map -->
+            <div class="w-full md:w-1/3 px-0 md:px-4 pt-8 md:pt-16">
+                <div class="text-lg md:text-[28px] font-bold mb-3">CONFERENCE VENUE</div>
+                <div class="w-full h-[200px] md:h-[385px]">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7439881865093!2d77.49522507574191!3d28.45713287576099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce565f0000001%3A0x548952c90b21eae1!2sGCET!5e0!3m2!1sen!2sin!4v1749258619239!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="rounded-lg shadow-md">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="w-full h-auto py-4 bg-[#FFF1F1] font-montserrat text-base md:text-[22px] font-medium flex items-center justify-center">
+        <span class="text-[#AD2621] text-center">© CEC2SET-2025  • Galgotias College of Engineering and Technology • All rights reserved</span>
+    </div>
+
+    <!-- Add this script just before </body> -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        // Optional: close mobile menu when clicking a link
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
